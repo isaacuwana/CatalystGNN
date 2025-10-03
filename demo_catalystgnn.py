@@ -1,8 +1,7 @@
 """
 CatalystGNN Demonstration Script
 
-This script demonstrates the key capabilities of the CatalystGNN package
-for Isaac's PhD screening. It shows the complete pipeline from molecular
+This script demonstrates the key capabilities of the CatalystGNN package. It shows the complete pipeline from molecular
 input to property prediction using Graph Neural Networks.
 """
 
@@ -12,7 +11,7 @@ import numpy as np
 from pathlib import Path
 
 print("="*80)
-print("CatalystGNN: PhD Screening Demonstration")
+print("CatalystGNN: Screening Demonstration")
 print("Isaac U. Adeyeye - Materials Discovery through Graph Neural Networks")
 print("="*80)
 
@@ -286,7 +285,7 @@ def main():
     
     if passed >= total * 0.8:  # 80% success rate
         print("\n CatalystGNN is working excellently!")
-        print("   Ready for PhD screening demonstration!")
+        print("   Ready for screening demonstration!")
     elif passed >= total * 0.6:  # 60% success rate
         print("\n CatalystGNN is working well!")
         print("   Minor issues but core functionality is solid!")
@@ -295,7 +294,7 @@ def main():
         print("   Please check the errors above.")
     
     print("\n" + "="*80)
-    print("PACKAGE HIGHLIGHTS FOR PhD SCREENING:")
+    print("PACKAGE HIGHLIGHTS FOR SCREENING:")
     print("="*80)
     print("✓ Complete graph neural network implementation from scratch")
     print("✓ Multiple state-of-the-art GNN architectures (CGCNN, MPNN, GAT)")
@@ -304,7 +303,7 @@ def main():
     print("✓ Professional software architecture with proper documentation")
     print("✓ Command-line interface for easy usage")
     print("✓ Batch processing and visualization capabilities")
-    print("✓ Demonstrates PhD-level understanding of both ML and chemistry")
+    print("✓ Demonstrates level understanding of both ML and chemistry")
     
     return 0 if passed >= total * 0.8 else 1
 

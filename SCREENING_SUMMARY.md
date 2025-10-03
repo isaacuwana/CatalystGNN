@@ -88,7 +88,7 @@ python -m catalystgnn.cli visualize --input structure.cif --output plot.png
 
 ---
 
-## **PhD-Level Contributions**
+## **Contributions**
 
 ### **1. Scientific Innovation**
 - **Novel Featurization**: Comprehensive 152D molecular and 92D crystal features
@@ -108,13 +108,13 @@ python -m catalystgnn.cli visualize --input structure.cif --output plot.png
 
 ---
 
-## **PhD Screening Impact**
+## **Impact**
 
 ### **Demonstrates Isaac's Capabilities**
 1. **Algorithmic Framework Creation**: Built complete ML pipeline from scratch
 2. **Interdisciplinary Expertise**: Combines chemistry, physics, and computer science
 3. **Research Vision**: Aligns perfectly with stated goals of computational materials discovery
-4. **Technical Depth**: PhD-level understanding of both domain and methods
+4. **Technical Depth**: understanding of both domain and methods
 
 ### **Real-World Applications**
 - **High-Throughput Screening**: Process thousands of catalyst candidates
@@ -157,7 +157,7 @@ python -m catalystgnn.cli visualize --input structure.cif --output plot.png
 
 ## **Conclusion**
 
-**CatalystGNN successfully demonstrates Isaac's readiness for PhD-level research in computational materials science.**
+**CatalystGNN successfully demonstrates research in computational materials science.**
 
 ### **Key Achievements**
  **Complete Implementation**: From data input to property prediction  
@@ -165,9 +165,8 @@ python -m catalystgnn.cli visualize --input structure.cif --output plot.png
  **Scientific Rigor**: Physics-informed features and domain expertise  
 **Innovation Potential**: Foundation for breakthrough research  
 
-### **PhD Readiness Indicators**
+### **Indicators**
 - **Technical Mastery**: Advanced ML and chemistry integration
-- **Research Vision**: Clear path from current work to PhD contributions
 - **Problem-Solving**: Robust handling of real-world challenges
 - **Communication**: Clear documentation and presentation
 
