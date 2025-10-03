@@ -22,7 +22,7 @@ The rational design of catalysts and porous materials remains a significant bott
 ### From Source (Recommended for Development)
 
 ```bash
-git clone https://github.com/isaac-adeyeye/CatalystGNN.git
+git clone https://github.com/isaacuwana/CatalystGNN.git
 cd CatalystGNN
 pip install -e .
 ```
@@ -109,7 +109,7 @@ The featurization schemes incorporate both geometric and chemical information, i
 ### Setting up Development Environment
 
 ```bash
-git clone https://github.com/isaac-adeyeye/CatalystGNN.git
+git clone https://github.com/isaacuwana/CatalystGNN.git
 cd CatalystGNN
 python -m venv catenv
 source catenv/bin/activate  # On Windows: catenv\Scripts\activate
@@ -164,4 +164,4 @@ If you use CatalystGNN in your research, please cite:
 
 Isaac U. Adeyeye - isaacak88@gmail.com and ui.adeyeye@gmail.com
 
-Project Link: [https://github.com/isaac-adeyeye/CatalystGNN](https://github.com/isaac-adeyeye/CatalystGNN)
+Project Link: [https://github.com/isaacuwana/CatalystGNN](https://github.com/isaacuwana/CatalystGNN)

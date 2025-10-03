@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: catalystgnn
 Version: 0.1.0
 Summary: Graph Neural Networks for Catalyst Property Prediction
-Home-page: https://github.com/isaac-adeyeye/CatalystGNN
+Home-page: https://github.com/isaacuwana/CatalystGNN
 Author: Isaac U. Adeyeye
 Author-email: isaac.adeyeye@example.com
 Classifier: Development Status :: 3 - Alpha
@@ -63,7 +63,7 @@ Dynamic: summary
 
 **CatalystGNN** is a Python package that bridges the gap between traditional materials characterization and modern machine learning. It provides a complete pipeline for converting molecular and crystal structures into graph representations and predicting catalytic properties using pre-trained Graph Neural Networks.
 
-## 🚀 Key Features
+## Key Features
 
 - **Multi-format Input Support**: Process .cif files, SMILES strings, and other standard chemical formats
 - **Advanced Graph Featurization**: Convert molecular/crystal structures into rich graph representations
@@ -71,16 +71,16 @@ Dynamic: summary
 - **Extensible Architecture**: Easy to add new featurization schemes and prediction models
 - **Production Ready**: Command-line interface and Python API for seamless integration
 
-## 🎯 Motivation
+## Motivation
 
 The rational design of catalysts and porous materials remains a significant bottleneck in addressing global energy and environmental challenges. Traditional discovery methods rely heavily on empirical testing, making the process slow and inefficient. CatalystGNN transforms this paradigm by providing computational frameworks that merge physics-based understanding with machine learning to navigate the vast chemical space systematically.
 
-## 📦 Installation
+## Installation
 
 ### From Source (Recommended for Development)
 
 ```bash
-git clone https://github.com/isaac-adeyeye/CatalystGNN.git
+git clone https://github.com/isaacuwana/CatalystGNN.git
 cd CatalystGNN
 pip install -e .
 ```
@@ -91,7 +91,7 @@ pip install -e .
 pip install catalystgnn
 ```
 
-## 🔧 Quick Start
+## Quick Start
 
 ### Command Line Interface
 
@@ -121,7 +121,7 @@ result = predictor.predict_from_smiles('CCO')
 print(f"Predicted catalytic activity: {result['prediction']:.3f}")
 ```
 
-## 🧠 Architecture
+## Architecture
 
 CatalystGNN implements a modular architecture with three main components:
 
@@ -142,14 +142,14 @@ CatalystGNN implements a modular architecture with three main components:
 - **Catalytic Activity Predictor**: Trained on diverse catalyst datasets
 - **Custom Models**: Framework for training domain-specific models
 
-## 📊 Performance
+## Performance
 
 | Property | Dataset Size | MAE | R² Score |
 |----------|-------------|-----|----------|
 | CO₂ Adsorption Energy | 12,000 MOFs | 0.15 kJ/mol | 0.92 |
 | Catalytic Activity | 8,500 catalysts | 0.08 log units | 0.89 |
 
-## 🔬 Scientific Background
+## Scientific Background
 
 This package implements state-of-the-art graph neural network architectures specifically designed for materials science applications:
 
@@ -162,12 +162,12 @@ The featurization schemes incorporate both geometric and chemical information, i
 - Bond characteristics (length, angle, coordination)
 - Structural descriptors (pore size, surface area, topology)
 
-## 🛠️ Development
+## Development
 
 ### Setting up Development Environment
 
 ```bash
-git clone https://github.com/isaac-adeyeye/CatalystGNN.git
+git clone https://github.com/isaacuwana/CatalystGNN.git
 cd CatalystGNN
 python -m venv catenv
 source catenv/bin/activate  # On Windows: catenv\Scripts\activate
@@ -187,19 +187,19 @@ black catalystgnn/
 flake8 catalystgnn/
 ```
 
-## 📚 Documentation
+## Documentation
 
 Comprehensive documentation is available at [https://catalystgnn.readthedocs.io](https://catalystgnn.readthedocs.io)
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📖 Citation
+## Citation
 
 If you use CatalystGNN in your research, please cite:
 
@@ -208,18 +208,18 @@ If you use CatalystGNN in your research, please cite:
   title={CatalystGNN: Graph Neural Networks for Catalyst Property Prediction},
   author={Adeyeye, Isaac U.},
   year={2024},
-  url={https://github.com/isaac-adeyeye/CatalystGNN}
+  url={https://github.com/isaacuwana/CatalystGNN}
 }
 ```
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built on top of PyTorch Geometric and DGL
 - Inspired by the materials science community's need for computational tools
 - Special thanks to the open-source chemistry and ML communities
 
-## 📞 Contact
+## Contact
 
 Isaac U. Adeyeye - isaac.adeyeye@example.com
 
-Project Link: [https://github.com/isaac-adeyeye/CatalystGNN](https://github.com/isaac-adeyeye/CatalystGNN)
+Project Link: [https://github.com/isaacuwana/CatalystGNN](https://github.com/isaacuwana/CatalystGNN)

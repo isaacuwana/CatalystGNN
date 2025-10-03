@@ -23,7 +23,7 @@ setup(
     description="Graph Neural Networks for Catalyst Property Prediction",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/isaac-adeyeye/CatalystGNN",
+    url="https://github.com/isaacuwana/CatalystGNN",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

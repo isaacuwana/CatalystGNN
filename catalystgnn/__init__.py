@@ -37,6 +37,6 @@ PACKAGE_INFO = {
     "description": "Graph Neural Networks for Catalyst Property Prediction",
     "author": __author__,
     "email": __email__,
-    "url": "https://github.com/isaac-adeyeye/CatalystGNN",
+    "url": "https://github.com/isaacuwana/CatalystGNN",
     "license": "MIT",
 }
